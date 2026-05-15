@@ -14,11 +14,11 @@ to players on join, death, respawn, totem pop, and world switch.**
 - Apply any number of potion effects when a player **joins** the server
 - Apply effects on **death**, **respawn after death**, and **totem of undying** pop
 - Apply effects on **world switch**
-- Each trigger is **independently toggled** — enable only what you need
+- Each trigger is **independently toggled** enable only what you need
 - Effects can be **infinite** or **time-limited** (in seconds)
 - Supports **multiple effects per event** with individual amplifier control
-- **Live reload** via `/joineffect reload` — no server restart needed
-- Full **Folia thread-safety** — uses entity scheduler, no main-thread blocking
+- **Live reload** via `/joineffect reload` no server restart needed
+- Full **Folia thread-safety** uses entity scheduler, no main-thread blocking
 - Zero external dependencies, pure Paper/Folia API
 
 ---
